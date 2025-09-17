@@ -1,5 +1,5 @@
-function status(request, response) {
-  response.status(200).json({ chave: "alunos do curso.dev são massa" });
+function Hello(request, response) {
+  response.status(200).json({ resposta: "Hello" });
 }
 
-export default status;
+export default Hello;
